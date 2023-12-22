@@ -12,11 +12,11 @@ Folgende Funktionen wurden implementiert:
 
 Zusätzlich wird im Hintergrund die gewinnsteine Grün markiert und es erscheint eine Meldung, sobald ein Spieler gewonnen hat. Beim Schliessen dieser Meldung, wird der Spielstand wieder zurückgesetzt und es kann ein neues Spiel gespielt werden.
 
-![game board from connect four!](asssets/Picture1.png "Game Board")  
+![game board from connect four!](/asssets/Picture1.png "Game Board")  
 
 ## Funktionen
 
-![game board from connect four!](asssets/Picture2.png "Game Board")  
+![game board from connect four!](/assets/Picture2.png "Game Board")  
 
 1. Wenn ein Spielstand gespeichert wurde, kann der Spielstand geladen werden
 2. Aktueller Spielstand kann gespeichert werden
