@@ -349,7 +349,12 @@ function showBoard() {
 
 
   const currPlay = document.getElementById("currentPlayer");
-  currPlay.style.backgroundColor = 'green';
+  
+  if (countStones("r") > countStones("b")) {
+    state.current = Player.blue;
+  } else {
+    state.current = Player.red;
+  }
   currPlay.textContent = getCurrentPlayer();
 
   shouldButtonBeVisible();
