@@ -22,3 +22,6 @@ Zusätzlich wird im Hintergrund die gewinnsteine Grün markiert und es erscheint
 2. Aktueller Spielstand kann gespeichert werden
 3. Spiel kann geresetet werden
 4. Wenn ein falscher Zug ausgeführt wurde, kann dieser Rückgängig gemacht werden.
+
+Lets play the game:
+<https://janneszuend.github.io/viergewinnt_janneszuend/>
