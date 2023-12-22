@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vier gewinnt</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="sidenav">
+    <button id="loadStateFromServer" class="loadFromServerButton" >Load from Server</button>
+    <button id="saveStateToServer" class="saveToServerButton" ">Save to Server</button>
+    <button id="loadState" >Load</button>
+    <button id="saveState" >Save</button>
+    <button id="reset" >Reset</button>
+    <button id="undo" class="undo" >Undo</button>
+
+    <div class="text">
+      <label>Winner:</label>
+      <span id="winner">you both are loosers</span>
+    </div>
+
+    <div class="text">
+      <label>current Player:</label>
+      <span id="currentPlayer">red</span>
+    </div>
+  </nav>
+
+  <div class="centered">
+    <div id="app"></div>
+  </div>
+  <script type="module" src="./fragments.js" >
+  </script>
+</body>
+</html>
